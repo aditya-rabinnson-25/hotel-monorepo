@@ -1,0 +1,19 @@
+{
+  "name": "hotel-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "better-auth": "^1.3.34",
+    "@better-auth/react": "^1.3.34"
+
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  }
+}

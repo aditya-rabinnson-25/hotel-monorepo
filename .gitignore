@@ -1,0 +1,14 @@
+# Node
+node_modules
+npm-debug.log
+
+# Python
+.venv
+__pycache__/
+*.pyc
+
+# env
+.env.local
+
+# Next build
+.apps/web/.next
